@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>amikeco</title>
+    <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"-->
+    <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+    <!-- Inline CSS based on choices in "Settings" tab -->
+    <style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Activity</h1>
+    <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+    <div class="bootstrap-iso">
+     <div class="container-fluid">
+      <div class="row">
+       <div class="col-md-6 col-sm-6 col-xs-12">
+        <form method="post" action="./activity.html">
+         <div class="form-group ">
+          <label class="control-label " for="activityTitle">
+           Title
+          </label>
+          <input class="form-control" id="activityTitle" name="activityTitle" type="text"/>
+         </div>
+         <div class="form-group ">
+          <label class="control-label ">
+           Category
+          </label>
+          <div class=" ">
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="category" type="checkbox" value="cycling"/>
+             cycling
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="category" type="checkbox" value="hockey"/>
+             hockey
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="category" type="checkbox" value="eating"/>
+             eating
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="category" type="checkbox" value="coffee"/>
+             coffee
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="category" type="checkbox" value="hiking"/>
+             hiking
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="category" type="checkbox" value="cinema"/>
+             cinema
+            </label>
+           </div>
+          </div>
+         </div>
+         <div class="form-group ">
+          <label class="control-label " for="tags">
+           Tags
+          </label>
+          <input class="form-control" id="tags" name="tags" type="text"/>
+          <span class="help-block" id="hint_tags">
+           comma separated list
+          </span>
+         </div>
+         <div class="form-group ">
+          <label class="control-label " for="location">
+           Location
+          </label>
+          <input class="form-control" id="location" name="location" type="text"/>
+         </div>
+         <div class="form-group ">
+          <label class="control-label ">
+           Preferred days
+          </label>
+          <div class=" ">
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="preferedDays" type="checkbox" value="Monday"/>
+             Monday
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="preferedDays" type="checkbox" value="Tuesday"/>
+             Tuesday
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="preferedDays" type="checkbox" value="Wednesday"/>
+             Wednesday
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="preferedDays" type="checkbox" value="Thursday"/>
+             Thursday
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="preferedDays" type="checkbox" value="Friday"/>
+             Friday
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="preferedDays" type="checkbox" value="Saturday"/>
+             Saturday
+            </label>
+           </div>
+           <div class="checkbox">
+            <label class="checkbox">
+             <input name="preferedDays" type="checkbox" value="Sunday"/>
+             Sunday
+            </label>
+           </div>
+          </div>
+         </div>
+         <div class="form-group ">
+          <label class="control-label " for="preferredTime">
+           Preferred time
+          </label>
+          <input class="form-control" id="preferredTime" name="preferredTime" type="text"/>
+         </div>
+         <div class="form-group ">
+          <label class="control-label " for="description">
+           Description
+          </label>
+          <textarea class="form-control" cols="40" id="description" name="description" rows="10"></textarea>
+         </div>
+         <div class="form-group">
+          <div>
+           <button class="btn btn-primary " name="submit" type="submit">
+            Save
+           </button>
+          </div>
+         </div>
+        </form>
+       </div>
+      </div>
+     </div>
+    </div>
+  </body>
+</html>

@@ -18,53 +18,20 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Login</h1>
+    <h1>Create an activity</h1>
     <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
     <div class="bootstrap-iso">
      <div class="container-fluid">
       <div class="row">
        <div class="col-md-6 col-sm-6 col-xs-12">
-        <form method="post" action="./activity.html">
          <div class="form-group ">
-          <label class="control-label requiredField" for="email">
-           E-mail
-           <span class="asteriskField">
-            *
-           </span>
-          </label>
-          <input class="form-control" id="email" name="email" type="text"/>
-         </div>
-         <div class="form-group ">
-          <label class="control-label requiredField" for="password">
-           Password
-           <span class="asteriskField">
-            *
-           </span>
-          </label>
-          <input class="form-control" id="password" name="password" type="text"/>
-         </div>
-         <div class="form-group">
-          <div>
-           <button class="btn btn-primary " name="submit" type="submit">
-            Login
-           </button>
-          </div>
-         </div>
-         <div class="form-group ">
-          <form method="post" action="./index.html">
-            <button class="btn btn-primary " name="submit_with_facebook" type="submit">
-               Login with Facebook
-            </button>
+          <form method="post" action="./offer.html" style="display: inline;">
+            <button type="submit" class="btn btn-primary btn-lg">Offer</button>
+          </form>
+          <form method="post" action="./demand.html" style="display: inline;">
+            <button type="submit" class="btn btn-primary btn-lg">Demand</button>
           </form>
          </div>
-         <div class="form-group ">
-           <form method="post" action="./profile_new.html">
-             <button class="btn btn-primary " name="register" type="submit">
-               Register
-             </button>
-           </form>
-         </div>
-        </form>
        </div>
       </div>
      </div>
