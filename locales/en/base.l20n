@@ -1,0 +1,32 @@
+<loginTitle "Login">
+<loginEmail "E-mail">
+<loginPassword "Password">
+<loginButtonDefault "Login">
+<loginButtonFacebook "Login with Facebook">
+<loginButtonRegister "Register">
+<activityTitle "Activity">
+<activityButtonOffer "Offer">
+<activityButtonDemand "Demand">
+<activityOfferTitle "Offer">
+<activityOfferTitleName "Title">
+<activityOfferCategory "Category">
+<activityOfferCategoryCycling "Cycling">
+<activityOfferCategoryHockey "Hockey">
+<activityOfferCategoryEating "Eating">
+<activityOfferCategoryCoffee "Coffee">
+<activityOfferCategoryHiking "Hiking">
+<activityOfferCategoryCinema "Cinema">
+<activityOfferTags "Tags">
+<activityOfferHintCommaSeparatedList "comma separated list">
+<activityOfferLocation "Location">
+<activityOfferPreferedDays "Prefered days">
+<activityOfferPreferedDaysMonday "Monday">
+<activityOfferPreferedDaysTuesday "Tuesday">
+<activityOfferPreferedDaysWednesday "Wednesday">
+<activityOfferPreferedDaysThursday "Thursday">
+<activityOfferPreferedDaysFriday "Friday">
+<activityOfferPreferedDaysSaturday "Saturday">
+<activityOfferPreferedDaysSunday "Sunday">
+<activityOfferPreferedTime "Prefered time">
+<activityOfferPreferedDaysDescription "Description">
+<activityOfferButtonSave "Save">

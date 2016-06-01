@@ -1,0 +1,32 @@
+<loginTitle "Anmeldung">
+<loginEmail "E-Mail-Adresse">
+<loginPassword "Passwort">
+<loginButtonDefault "Anmelden">
+<loginButtonFacebook "Anmelden mit Facebook">
+<loginButtonRegister "Registrieren">
+<activityTitle "Aktivität">
+<activityButtonOffer "Anbieten">
+<activityButtonDemand "Suchen">
+<activityOfferTitle "Aktivität anbieten">
+<activityOfferTitleName "Bezeichnung">
+<activityOfferCategory "Kategorie">
+<activityOfferCategoryCycling "Fahrrad fahren">
+<activityOfferCategoryHockey "Hockey spielen">
+<activityOfferCategoryEating "Essen gehen">
+<activityOfferCategoryCoffee "Kaffee trinken">
+<activityOfferCategoryHiking "Wandern">
+<activityOfferCategoryCinema "Kino">
+<activityOfferTags "Schlagworte">
+<activityOfferHintCommaSeparatedList "Komma-getrennt">
+<activityOfferLocation "Treffpunkt">
+<activityOfferPreferedDays "Bevorzugte(r) Wochentag(e)">
+<activityOfferPreferedDaysMonday "Montag">
+<activityOfferPreferedDaysTuesday "Dienstag">
+<activityOfferPreferedDaysWednesday "Mittwoch">
+<activityOfferPreferedDaysThursday "Donnerstag">
+<activityOfferPreferedDaysFriday "Freitag">
+<activityOfferPreferedDaysSaturday "Sonnabend">
+<activityOfferPreferedDaysSunday "Sonntag">
+<activityOfferPreferedTime "Bevorzugte Zeit">
+<activityOfferPreferedDaysDescription "Beschreibung">
+<activityOfferButtonSave "Aktivitätangebot speichern">

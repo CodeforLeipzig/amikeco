@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>amikeco</title>
+    <meta name="defaultLanguage" content="en">
+    <meta name="availableLanguages" content="ar,de,en,fa,fr,ru">
+    <title data-l10n-id="activityOfferTitle">amikeco activity offer</title>
+    <link rel="localization" href="./locales/manifest.json">
     <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"-->
     <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
     <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
@@ -12,13 +15,14 @@
     <style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}</style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js"></script>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <h1>Activity</h1>
+    <h1 data-l10n-id="activityOfferTitle">Activity</h1>
     <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
     <div class="bootstrap-iso">
      <div class="container-fluid">
@@ -27,132 +31,132 @@
         <form method="get" action="./activity.html">
          <div class="form-group ">
           <label class="control-label " for="activityTitle">
-           Title
+           <span data-l10n-id="activityOfferTitleName">Title</span>
           </label>
           <input class="form-control" id="activityTitle" name="activityTitle" type="text"/>
          </div>
          <div class="form-group ">
           <label class="control-label ">
-           Category
+           <span data-l10n-id="activityOfferCategory">Category</span>
           </label>
           <div class=" ">
            <div class="checkbox">
             <label class="checkbox">
              <input name="category" type="checkbox" value="cycling"/>
-             cycling
+             <span data-l10n-id="activityOfferCategoryCycling">cycling</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="category" type="checkbox" value="hockey"/>
-             hockey
+             <span data-l10n-id="activityOfferCategoryHockey">hockey</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="category" type="checkbox" value="eating"/>
-             eating
+             <span data-l10n-id="activityOfferCategoryEating">eating</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="category" type="checkbox" value="coffee"/>
-             coffee
+             <span data-l10n-id="activityOfferCategoryCoffee">coffee</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="category" type="checkbox" value="hiking"/>
-             hiking
+             <span data-l10n-id="activityOfferCategoryHiking">hiking</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="category" type="checkbox" value="cinema"/>
-             cinema
+             <span data-l10n-id="activityOfferCategoryCinema">cinema</span>
             </label>
            </div>
           </div>
          </div>
          <div class="form-group ">
           <label class="control-label " for="tags">
-           Tags
+           <span data-l10n-id="activityOfferTags">Tags</span>
           </label>
           <input class="form-control" id="tags" name="tags" type="text"/>
           <span class="help-block" id="hint_tags">
-           comma separated list
+           <span data-l10n-id="activityOfferHintCommaSeparatedList">comma separated list</span>
           </span>
          </div>
          <div class="form-group ">
           <label class="control-label " for="location">
-           Location
+           <span data-l10n-id="activityOfferLocation">Location</span>
           </label>
           <input class="form-control" id="location" name="location" type="text"/>
          </div>
          <div class="form-group ">
           <label class="control-label ">
-           Preferred days
+           <span data-l10n-id="activityOfferPreferedDays">Preferred days</span>
           </label>
           <div class=" ">
            <div class="checkbox">
             <label class="checkbox">
              <input name="preferedDays" type="checkbox" value="Monday"/>
-             Monday
+             <span data-l10n-id="activityOfferPreferedDaysMonday">Monday</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="preferedDays" type="checkbox" value="Tuesday"/>
-             Tuesday
+             <span data-l10n-id="activityOfferPreferedDaysTuesday">Tuesday</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="preferedDays" type="checkbox" value="Wednesday"/>
-             Wednesday
+             <span data-l10n-id="activityOfferPreferedDaysWednesday">Wednesday</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="preferedDays" type="checkbox" value="Thursday"/>
-             Thursday
+             <span data-l10n-id="activityOfferPreferedDaysThursday">Thursday</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="preferedDays" type="checkbox" value="Friday"/>
-             Friday
+             <span data-l10n-id="activityOfferPreferedDaysFriday">Friday</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="preferedDays" type="checkbox" value="Saturday"/>
-             Saturday
+             <span data-l10n-id="activityOfferPreferedDaysSaturday">Saturday</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="preferedDays" type="checkbox" value="Sunday"/>
-             Sunday
+             <span data-l10n-id="activityOfferPreferedDaysSunday">Sunday</span>
             </label>
            </div>
           </div>
          </div>
          <div class="form-group ">
           <label class="control-label " for="preferredTime">
-           Preferred time
+           <span data-l10n-id="activityOfferPreferedTime">Preferred time</span>
           </label>
           <input class="form-control" id="preferredTime" name="preferredTime" type="text"/>
          </div>
          <div class="form-group ">
           <label class="control-label " for="description">
-           Description
+           <span data-l10n-id="activityOfferPreferedDaysDescription">Description</span>
           </label>
           <textarea class="form-control" cols="40" id="description" name="description" rows="10"></textarea>
          </div>
          <div class="form-group">
           <div>
-           <button class="btn btn-primary " name="submit" type="submit">
+           <button class="btn btn-primary " name="submit" type="submit" data-l10n-id="activityOfferButtonSave">
             Save
            </button>
           </div>
