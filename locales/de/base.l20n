@@ -4,6 +4,7 @@
 <loginButtonDefault "Anmelden">
 <loginButtonFacebook "Anmelden mit Facebook">
 <loginButtonRegister "Registrieren">
+<activitySiteTitle "amikeco Aktivitäten">
 <activityTitle "Aktivität">
 <activityButtonOffer "Anbieten">
 <activityButtonDemand "Suchen">
@@ -17,7 +18,7 @@
 <activityOfferCategoryHiking "Wandern">
 <activityOfferCategoryCinema "Kino">
 <activityOfferTags "Schlagworte">
-<activityOfferHintCommaSeparatedList "Komma-getrennt">
+<commaSeparatedList "Komma-getrennt">
 <activityOfferLocation "Treffpunkt">
 <activityOfferPreferedDays "Bevorzugte(r) Wochentag(e)">
 <activityOfferPreferedDaysMonday "Montag">
@@ -30,3 +31,54 @@
 <activityOfferPreferedTime "Bevorzugte Zeit">
 <activityOfferPreferedDaysDescription "Beschreibung">
 <activityOfferButtonSave "Aktivitätangebot speichern">
+<profileNewSiteTitle "amikeco Neuer Benutzer">
+<profileNewTitle "Benutzer-Profil">
+<profileNewPrivate "Privat">
+<profileNewOrganization "Organisation">
+<profileNewBackgroundColor "Hintergrundfarbe">
+<profileNewBackgroundColorGreen "Grün">
+<profileNewBackgroundColorBlue "Blau">
+<profileNewBackgroundColorYellow "Gelb">
+<profileNewName "Name">
+<profileNewOffers "Biete an">
+<profileNewInterests "Interessen">
+<profileNewLanguages "Spreche folgende Sprachen">
+<profileNewHomepage "Homepage">
+<profileNewPassword "Passwort">
+<profileNewButtonSave "Speichern">
+<profileSiteTitle "amikeco Nutzerprofil">
+<profileTitle "Benutzer-Profil">
+<profilePrivate "Privat">
+<profileOrganization "Organisation">
+<profileBackgroundColor "Hintergrundfarbe">
+<profileBackgroundColorGreen "Grün">
+<profileBackgroundColorBlue "Blau">
+<profileBackgroundColorYellow "Gelb">
+<profileName "Name">
+<profileOffers "Biete an">
+<profileInterests "Interessen">
+<profileLanguages "Spreche folgende Sprachen">
+<profileHomepage "Homepage">
+<profileMemberSince "Mitglied seit">
+<profileLastActive "Zuletzt angemeldet">
+<profileButtonBack "Zurück">
+<demandSiteTitle "amikeco Aktivität suchen">
+<demandTitle "Aktivität suchen">
+<demandSearch "Suche">
+<demandCategories "Kategorien">
+<demandCategory1 "Kategorie 1">
+<demandCategory2 "Kategorie 2">
+<demandCategory3 "Kategorie 3">
+<demandTags "Schlagwörter">
+<demandTag1 "Schlagwort 1">
+<demandTag2 "Schlagwort 2">
+<demandTag3 "Schlagwort 3">
+<demandButtonSearch "Suche starten">
+<demandResults "Ergebnisse">
+<demandResultName "Name">
+<demandResultDate "Datum">
+<demandResultTime "Zeit">
+<demandResultContact "Kontakt">
+<demandResultDescription "Beschreibung">
+<demandResultUrbanDistrict "Stadtteil">
+<demandButtonShare "Mit anderen teilen">

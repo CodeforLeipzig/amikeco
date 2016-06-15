@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="defaultLanguage" content="en">
     <meta name="availableLanguages" content="ar,de,en,fa,fr,ru">
-    <title>amikeco activity demand</title>
+    <title data-l10n-id="demandSiteTitle">amikeco activity demand</title>
     <link rel="localization" href="./locales/manifest.json">
     <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"-->
     <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
@@ -22,7 +22,7 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Search</h1>
+    <h1 data-l10n-id="demandTitle">Search</h1>
     <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
     <div class="bootstrap-iso">
      <div class="container-fluid">
@@ -31,56 +31,56 @@
         <form method="get">
          <div class="form-group ">
           <label class="control-label " for="search">
-           Search
+            <span data-l10n-id="demandSearch">Search</span>
           </label>
           <input class="form-control" id="search" name="search" type="text"/>
          </div>
          <div class="form-group ">
           <label class="control-label ">
-           categories
+            <span data-l10n-id="demandCategories">Categories</span>
           </label>
           <div class=" ">
            <div class="checkbox">
             <label class="checkbox">
              <input name="categories" type="checkbox" value="category 1"/>
-             category 1
+             <span data-l10n-id="demandCategory1">Category 1</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="categories" type="checkbox" value="category 2"/>
-             category 2
+             <span data-l10n-id="demandCategory2">Category 2</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="categories" type="checkbox" value="category 3"/>
-             category 3
+             <span data-l10n-id="demandCategory3">Category 3</span>
             </label>
            </div>
           </div>
          </div>
          <div class="form-group ">
           <label class="control-label ">
-           tags
+            <span data-l10n-id="demandTags">Tags</span>
           </label>
           <div class=" ">
            <div class="checkbox">
             <label class="checkbox">
              <input name="tags" type="checkbox" value="tag 1"/>
-             tag 1
+             <span data-l10n-id="demandTag1">Tag 1</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="tags" type="checkbox" value="tag 2"/>
-             tag 2
+             <span data-l10n-id="demandTag2">Tag 1</span>
             </label>
            </div>
            <div class="checkbox">
             <label class="checkbox">
              <input name="tags" type="checkbox" value="Third Choice"/>
-             Third Choice
+             <span data-l10n-id="demandTag3">Tag 3</span>
             </label>
            </div>
           </div>
@@ -88,7 +88,7 @@
          <div class="form-group">
           <div>
            <button class="btn btn-primary " name="submit" type="submit">
-            Search
+             <span data-l10n-id="demandButtonSearch">Search</span>
            </button>
           </div>
          </div>
@@ -97,26 +97,26 @@
       </div>
      </div>
     </div>
-    <h2>Results</h2>
+    <h2 data-l10n-id="demandResults">Results</h2>
     <div class="bootstrap-iso">
      <div class="container-fluid">
       <div class="row">
        <div class="col-md-6 col-sm-6 col-xs-12">
          <div class="form-group ">
           <label class="control-label " for="offerName">
-           Name
+            <span data-l10n-id="demandResultName">Name</span>
           </label>
           <input class="form-control" id="offerName" name="offerName" type="text" disabled="disabled"/>
          </div>
          <div class="form-group ">
           <label class="control-label " for="date">
-           Date
+            <span data-l10n-id="demandResultDate">Date</span>
           </label>
           <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" disabled="disabled"/>
          </div>
          <div class="form-group ">
           <label class="control-label " for="time">
-           Time
+            <span data-l10n-id="demandResultTime">Time</span>
           </label>
           <input class="form-control" id="time" name="time" type="text" disabled="disabled"/>
          </div>
@@ -124,20 +124,20 @@
           <div>
             <form method="get" action="./profile.html">
            <button class="btn btn-primary " name="submit" type="submit">
-            Contact
+             <span data-l10n-id="demandResultContact">Contact</span>
            </button>
             </form>
           </div>
         </div>
          <div class="form-group ">
           <label class="control-label " for="description">
-           Description
+            <span data-l10n-id="demandResultDescription">Description</span>
           </label>
           <textarea class="form-control" cols="40" id="description" name="description" rows="10" disabled="disabled"></textarea>
          </div>
          <div class="form-group ">
           <label class="control-label " for="urbanDistrict">
-           Urban district
+            <span data-l10n-id="demandResultUrbanDistrict">Urban district</span>
           </label>
           <input class="form-control" id="urbanDistrict" name="urbanDistrict" type="text" disabled="disabled"/>
          </div>
@@ -145,7 +145,7 @@
           <div>
             <form method="get" action="./activity.html">
            <button class="btn btn-primary " name="submit" type="submit">
-            Share
+             <span data-l10n-id="demandButtonShare">Share</span>
            </button>
             </form>
           </div>

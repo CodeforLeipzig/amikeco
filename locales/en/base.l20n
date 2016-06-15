@@ -4,6 +4,7 @@
 <loginButtonDefault "Login">
 <loginButtonFacebook "Login with Facebook">
 <loginButtonRegister "Register">
+<activitySiteTitle "amikeco activities">
 <activityTitle "Activity">
 <activityButtonOffer "Offer">
 <activityButtonDemand "Demand">
@@ -30,3 +31,54 @@
 <activityOfferPreferedTime "Prefered time">
 <activityOfferPreferedDaysDescription "Description">
 <activityOfferButtonSave "Save">
+<profileNewSiteTitle "amikeco create new user profile">
+<profileNewTitle "Profile">
+<profileNewPrivate "Private">
+<profileNewOrganization "Organization">
+<profileNewBackgroundColor "Background color">
+<profileNewBackgroundColorGreen "Green">
+<profileNewBackgroundColorBlue "Blue">
+<profileNewBackgroundColorYellow "Yellow">
+<profileNewName "Name">
+<profileNewOffers "Offers">
+<profileNewInterests "Interests">
+<profileNewLanguages "Languages">
+<profileNewHomepage "Homepage">
+<profileNewPassword "Password">
+<profileNewButtonSave "Save">
+<profileSiteTitle "amikeco user profile">
+<profileTitle "Profile">
+<profilePrivate "Private">
+<profileOrganization "Organization">
+<profileBackgroundColor "Background color">
+<profileBackgroundColorGreen "Green">
+<profileBackgroundColorBlue "Blue">
+<profileBackgroundColorYellow "Yellow">
+<profileName "Name">
+<profileOffers "Offers">
+<profileInterests "Interests">
+<profileLanguages "Languages">
+<profileHomepage "Homepage">
+<profileMemberSince "Member since">
+<profileLastActive "Last active">
+<profileButtonBack "Back">
+<demandSiteTitle "amikeco demand">
+<demandTitle "Demand">
+<demandSearch "Search">
+<demandCategories "Categories">
+<demandCategory1 "Category 1">
+<demandCategory2 "Category 2">
+<demandCategory3 "Category 3">
+<demandTags "Tags">
+<demandTag1 "Tag 1">
+<demandTag2 "Tag 2">
+<demandTag3 "Tag 3">
+<demandButtonSearch "Search">
+<demandResults "Results">
+<demandResultName "Name">
+<demandResultDate "Date">
+<demandResultTime "Time">
+<demandResultContact "Contact">
+<demandResultDescription "Description">
+<demandResultUrbanDistrict "Urban district">
+<demandButtonShare "Share">

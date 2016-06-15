@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="defaultLanguage" content="en">
     <meta name="availableLanguages" content="ar,de,en,fa,fr,ru">
-    <title>amikeco create user profile</title>
+    <title data-l10n-id="profileNewSiteTitle">amikeco create user profile</title>
     <link rel="localization" href="./locales/manifest.json">
     <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"-->
     <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
@@ -22,7 +22,7 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Profile</h1>
+    <h1 data-l10n-id="profileNewTitle">Profile</h1>
     <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
     <div class="bootstrap-iso">
      <div class="container-fluid">
@@ -34,36 +34,33 @@
            <div class="radio">
             <label class="radio">
              <input name="organization" type="radio" value="Private"/>
-             Private
+             <span data-l10n-id="profileNewPrivate">Private</span>
             </label>
            </div>
            <div class="radio">
             <label class="radio">
              <input name="organization" type="radio" value="Organization"/>
-             Organization
+             <span data-l10n-id="profileNewOrganization">Organization</span>
             </label>
            </div>
           </div>
          </div>
          <div class="form-group ">
           <label class="control-label " for="select">
-           Background color
+           <span data-l10n-id="profileNewBackgroundColor">Background color</span>
           </label>
           <select class="select form-control" id="select" name="select">
-           <option value="green">
-            green
+           <option value="green" data-l10n-id="profileNewBackgroundColorGreen">
            </option>
-           <option value="blue">
-            blue
+           <option value="blue" data-l10n-id="profileNewBackgroundColorBlue">
            </option>
-           <option value="yellow">
-            yellow
+           <option value="yellow" data-l10n-id="profileNewBackgroundColorYellow">
            </option>
           </select>
          </div>
          <div class="form-group ">
           <label class="control-label " for="name">
-           Name
+           <span data-l10n-id="profileNewName">Name</span>
           </label>
           <span class="asteriskField">
            *
@@ -72,40 +69,40 @@
          </div>
          <div class="form-group ">
           <label class="control-label " for="interests">
-           Interests
+           <span data-l10n-id="profileNewInterests">Interests</span>
           </label>
           <input class="form-control" id="interests" name="interests" type="text"/>
           <span class="help-block" id="hint_interests">
-           comma separated list
+            <span data-l10n-id="commaSeparatedList">comma separated list</span>
           </span>
          </div>
          <div class="form-group ">
           <label class="control-label " for="languages">
-           Languages
+           <span data-l10n-id="profileNewLanguages">Languages</span>
           </label>
           <input class="form-control" id="languages" name="languages" type="text"/>
           <span class="help-block" id="hint_languages">
-           comma separated list
+            <span data-l10n-id="commaSeparatedList">comma separated list</span>
           </span>
          </div>
          <div class="form-group ">
           <label class="control-label " for="offers">
-           Offers
+           <span data-l10n-id="profileNewOffers">Offers</span>
           </label>
           <input class="form-control" id="offers" name="offers" type="text"/>
           <span class="help-block" id="hint_offers">
-           comma separated list
+            <span data-l10n-id="commaSeparatedList">comma separated list</span>
           </span>
          </div>
          <div class="form-group ">
           <label class="control-label " for="homepage">
-           Homepage
+           <span data-l10n-id="profileNewHomepage">Homepage</span>
           </label>
           <input class="form-control" id="homepage" name="homepage" type="text"/>
          </div>
          <div class="form-group ">
           <label class="control-label requiredField" for="password">
-           Password
+           <span data-l10n-id="profileNewPassword">Password</span>
            <span class="asteriskField">
             *
            </span>
@@ -114,7 +111,7 @@
          </div>
          <div class="form-group">
           <div>
-           <button class="btn btn-primary " name="submit" type="submit">
+           <button class="btn btn-primary " name="submit" type="submit" data-l10n-id="profileNewButtonSave">
             Save
            </button>
           </div>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="defaultLanguage" content="en">
     <meta name="availableLanguages" content="ar,de,en,fa,fr,ru">
-    <title>amikeco user profile</title>
+    <title data-l10n-id="profileSiteTitle">amikeco user profile</title>
     <link rel="localization" href="./locales/manifest.json">
     <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"-->
     <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
@@ -22,7 +22,7 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Profile</h1>
+    <h1 data-l10n-id="profileTitle">Profile</h1>
     <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
     <div class="bootstrap-iso">
      <div class="container-fluid">
@@ -33,63 +33,63 @@
            <div class="radio">
             <label class="radio">
              <input name="organization" type="radio" value="Private" disabled="disabled"/>
-             Private
+             <span data-l10n-id="profilePrivate">Private</span>
             </label>
            </div>
            <div class="radio">
             <label class="radio">
              <input name="organization" type="radio" value="Organization" disabled="disabled"/>
-             Organization
+             <span data-l10n-id="profileOrganization">Organization</span>
             </label>
            </div>
           </div>
          </div>
          <div class="form-group ">
           <label class="control-label " for="name">
-           Name
+           <span data-l10n-id="profileName">Name</span>
           </label>
           <input class="form-control" id="name" name="name" type="text" disabled="disabled"/>
          </div>
          <div class="form-group ">
           <label class="control-label " for="interests">
-           Interests
+           <span data-l10n-id="profileInterests">Interests</span>
           </label>
           <input class="form-control" id="interests" name="interests" type="text" disabled="disabled"/>
          </div>
          <div class="form-group ">
           <label class="control-label " for="languages">
-           Languages
+           <span data-l10n-id="profileLanguages">Languages</span>
           </label>
           <input class="form-control" id="languages" name="languages" type="text" disabled="disabled"/>
          </div>
          <div class="form-group ">
           <label class="control-label " for="offers">
-           Offers
+           <span data-l10n-id="profileOffers">Offers</span>
           </label>
           <input class="form-control" id="offers" name="offers" type="text" disabled="disabled"/>
          </div>
          <div class="form-group ">
           <label class="control-label " for="homepage">
-           Homepage
+           <span data-l10n-id="profileHomepage">Homepage</span>
           </label>
           <input class="form-control" id="homepage" name="homepage" type="text" disabled="disabled"/>
          </div>
          <div class="form-group ">
           <label class="control-label " for="memberSince">
-           Member since
+           <span data-l10n-id="profileMemberSince">Member since</span>
           </label>
           <input class="form-control" id="memberSince" name="memberSince" placeholder="MM/DD/YYYY" type="text" disabled="disabled"/>
          </div>
          <div class="form-group ">
           <label class="control-label " for="lastActive">
-           Last active
+           <span data-l10n-id="profileLastActive">Last active</span>
           </label>
           <input class="form-control" id="lastActive" name="lastActive" placeholder="MM/DD/YYYY" type="text" disabled="disabled"/>
          </div>
          <div class="form-group">
           <div>
             <form method="get" action="./demand.html">
-           <button class="btn btn-primary " name="submit" type="submit">
+           <button class="btn btn-primary " name="submit" type="submit"  data-l10n-id="profileButtonBack">
             Back
            </button>
             </form>
