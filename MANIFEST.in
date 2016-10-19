@@ -1,0 +1,25 @@
+include *.rst
+include LICENSE
+include Makefile
+include manage.py
+include tox.ini
+
+exclude .bumpversion.cfg
+exclude .editorconfig
+exclude pep257.sh
+
+recursive-include docs *.rst .gitkeep conf.py Makefile make.bat
+recursive-include requirements *.pip
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+graft amikeco
+graft tests
+
+prune envs
+prune amikeco/.cache
+prune amikeco/media
+include amikeco/media/.gitkeep
+prune amikeco/static_root
+include amikeco/static_root/.gitkeep
